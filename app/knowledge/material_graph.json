@@ -1,0 +1,286 @@
+{
+  "_comment": "Material knowledge graph — grows via learning loop when Gemini classifies new materials",
+  "version": "1.0",
+  "materials": [
+    {
+      "name": "Power Wiring",
+      "category": "Electrical",
+      "synonyms": ["power cable", "LT cable", "electrical wiring", "wiring and plugs", "power wiring and plugs", "internal wiring", "point wiring"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "Lightning Conductor",
+      "category": "Electrical",
+      "synonyms": ["lightning arrester", "lightning protection", "lightning rod", "lightning conductors"],
+      "typical_unit": "set",
+      "source": "seed"
+    },
+    {
+      "name": "IT Conduit",
+      "category": "Electrical",
+      "synonyms": ["IT & telephone conduit", "telephone conduit", "data conduit", "IT conduits", "communication conduit"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "XLPE Armoured Cable",
+      "category": "Electrical",
+      "synonyms": ["XLPE cable", "armoured cable", "power cable", "LT XLPE cable", "HT XLPE cable"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "Cable Tray",
+      "category": "Electrical",
+      "synonyms": ["cable tray system", "perforated cable tray", "ladder type cable tray", "cable ladder", "cable raceway"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "Distribution Board",
+      "category": "Electrical",
+      "synonyms": ["DB", "panel board", "distribution panel", "switch board", "MCCB panel", "MCB board"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "LED Light Fitting",
+      "category": "Electrical",
+      "synonyms": ["LED light", "LED luminaire", "LED fixture", "LED downlight", "LED panel light", "LED tube light", "light fitting"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Public Address System",
+      "category": "Electrical",
+      "synonyms": ["PA system", "public address", "sound system", "announcement system", "audio system"],
+      "typical_unit": "set",
+      "source": "seed"
+    },
+    {
+      "name": "PPR Pipe",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["polypropylene pipe", "PPR piping", "hot water pipe PPR", "green pipe"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "HDPE Pipe",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["high density polyethylene pipe", "HDPE piping", "PE pipe", "polyethylene pipe"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "uPVC Pipe",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["unplasticized PVC pipe", "uPVC piping", "PVC pipe", "SWR pipe", "uPVC SWR"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "GI Pipe",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["galvanized iron pipe", "GI piping", "galvanised pipe", "GI tube"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "Water Supply Piping",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["water supply line", "water main", "water distribution", "internal water supply", "domestic water supply"],
+      "typical_unit": "m",
+      "source": "seed"
+    },
+    {
+      "name": "Ball Valve",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["ball cock", "shut off valve", "isolation valve"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Water Tank",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["overhead tank", "OHT", "underground tank", "UGT", "storage tank", "water reservoir"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Submersible Pump",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["submersible motor pump", "borewell pump", "sump pump", "submersible pumpset"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Sanitary Fixture",
+      "category": "Plumbing & Drainage",
+      "synonyms": ["WC", "water closet", "wash basin", "urinal", "commode", "toilet", "sanitary ware"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "RCC Work",
+      "category": "Civil & Structural",
+      "synonyms": ["reinforced cement concrete", "RCC", "concrete work", "PCC work", "plain cement concrete"],
+      "typical_unit": "cum",
+      "source": "seed"
+    },
+    {
+      "name": "Structural Steel",
+      "category": "Civil & Structural",
+      "synonyms": ["steel structure", "MS structure", "steel fabrication", "structural fabrication", "steel framework"],
+      "typical_unit": "kg",
+      "source": "seed"
+    },
+    {
+      "name": "TMT Reinforcement Bar",
+      "category": "Civil & Structural",
+      "synonyms": ["TMT bar", "rebar", "reinforcement steel", "TMT steel", "Fe500", "Fe500D", "tor steel"],
+      "typical_unit": "kg",
+      "source": "seed"
+    },
+    {
+      "name": "Brick Masonry",
+      "category": "Civil & Structural",
+      "synonyms": ["brickwork", "brick wall", "masonry work", "block masonry", "AAC block", "fly ash brick"],
+      "typical_unit": "cum",
+      "source": "seed"
+    },
+    {
+      "name": "MS Grating",
+      "category": "Civil & Structural",
+      "synonyms": ["mild steel grating", "floor grating", "trench grating", "drain grating", "GI grating"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "Waterproofing",
+      "category": "Civil & Structural",
+      "synonyms": ["waterproofing treatment", "membrane waterproofing", "APP membrane", "bituminous waterproofing", "crystalline waterproofing"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "Fire Alarm System",
+      "category": "Firefighting",
+      "synonyms": ["automatic fire alarm", "fire detection system", "fire alarm panel", "fire alarm network", "fire alarm installation"],
+      "typical_unit": "set",
+      "source": "seed"
+    },
+    {
+      "name": "Fire Sprinkler",
+      "category": "Firefighting",
+      "synonyms": ["sprinkler system", "automatic sprinkler", "fire sprinkler system", "sprinkler head", "pendant sprinkler"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Fire Hydrant",
+      "category": "Firefighting",
+      "synonyms": ["hydrant system", "fire hydrant system", "hydrant valve", "landing valve", "fire hydrant installation"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Fire Pump Set",
+      "category": "Firefighting",
+      "synonyms": ["fire pump", "jockey pump", "fire fighting pump", "main fire pump", "fire pump house"],
+      "typical_unit": "set",
+      "source": "seed"
+    },
+    {
+      "name": "Air Handling Unit",
+      "category": "HVAC",
+      "synonyms": ["AHU", "air handler", "central AHU", "double skin AHU", "AHU unit"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Fan Coil Unit",
+      "category": "HVAC",
+      "synonyms": ["FCU", "fan coil", "ceiling mounted FCU", "concealed FCU", "cassette unit"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Chiller",
+      "category": "HVAC",
+      "synonyms": ["water cooled chiller", "air cooled chiller", "scroll chiller", "screw chiller", "chiller plant"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "GI Ductwork",
+      "category": "HVAC",
+      "synonyms": ["GI duct", "galvanized duct", "sheet metal duct", "HVAC duct", "supply air duct", "return air duct"],
+      "typical_unit": "kg",
+      "source": "seed"
+    },
+    {
+      "name": "Exhaust Fan",
+      "category": "HVAC",
+      "synonyms": ["exhaust ventilator", "axial fan", "centrifugal fan", "ventilation fan", "roof exhaust fan"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Vitrified Floor Tile",
+      "category": "Finishing & Interior",
+      "synonyms": ["vitrified tile", "floor tile", "polished vitrified tile", "double charge tile", "GVT tile"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "False Ceiling",
+      "category": "Finishing & Interior",
+      "synonyms": ["suspended ceiling", "gypsum ceiling", "grid ceiling", "mineral fibre ceiling", "metal ceiling", "POP ceiling"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "Interior Paint",
+      "category": "Finishing & Interior",
+      "synonyms": ["wall paint", "emulsion paint", "acrylic emulsion", "interior emulsion", "premium emulsion", "painting work"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "Aluminium Door",
+      "category": "Finishing & Interior",
+      "synonyms": ["aluminium door frame", "aluminium swing door", "aluminium sliding door", "powder coated door"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Aluminium Window",
+      "category": "Finishing & Interior",
+      "synonyms": ["aluminium window frame", "aluminium sliding window", "aluminium casement window", "powder coated window"],
+      "typical_unit": "nos",
+      "source": "seed"
+    },
+    {
+      "name": "Road Work",
+      "category": "External Works",
+      "synonyms": ["internal road", "asphalt road", "bituminous road", "road construction", "road pavement"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    },
+    {
+      "name": "Boundary Wall",
+      "category": "External Works",
+      "synonyms": ["compound wall", "perimeter wall", "boundary fencing", "security wall"],
+      "typical_unit": "rmt",
+      "source": "seed"
+    },
+    {
+      "name": "Landscaping",
+      "category": "External Works",
+      "synonyms": ["landscape work", "garden development", "softscape", "hardscape", "planting work", "turfing"],
+      "typical_unit": "sqm",
+      "source": "seed"
+    }
+  ]
+}

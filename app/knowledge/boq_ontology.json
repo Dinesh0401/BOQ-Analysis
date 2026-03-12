@@ -1,0 +1,80 @@
+{
+  "_comment": "BOQ Ontology — word-boundary keyword map used by ontology_mapper.py (Layer 2 classification)",
+  "Civil & Structural": [
+    "cement", "sand", "aggregate", "rebar", "reinforcement", "concrete", "rcc",
+    "formwork", "shuttering", "excavation", "foundation", "pile", "piling",
+    "backfill", "masonry", "brick", "block", "mortar", "plaster", "grout",
+    "waterproofing", "beam", "column", "slab", "footing", "retaining wall",
+    "precast", "grating", "manhole", "kerb", "expansion joint", "anchor bolt",
+    "base plate", "structural steel", "tmt bar", "binding wire", "scaffolding",
+    "curing compound", "dowel bar", "shear connector"
+  ],
+  "Plumbing & Drainage": [
+    "ppr pipe", "hdpe pipe", "upvc pipe", "cpvc pipe", "gi pipe", "ms pipe",
+    "ball valve", "gate valve", "check valve", "butterfly valve", "globe valve",
+    "water tank", "overhead tank", "underground tank", "cistern",
+    "submersible pump", "booster pump", "centrifugal pump",
+    "wash basin", "water closet", "urinal", "floor trap", "nahani trap",
+    "sanitary fixture", "faucet", "bib cock", "pillar cock",
+    "drainage", "sewer", "septic tank", "sump", "sewage treatment",
+    "coupling", "elbow", "tee", "reducer", "flange", "geyser", "water heater",
+    "rain water harvesting", "plumbing"
+  ],
+  "Electrical": [
+    "cable", "wire", "wiring", "conduit", "electrical", "power wiring",
+    "distribution board", "db", "mcb", "mccb", "elcb", "rccb",
+    "switchgear", "panel board", "transformer", "ups", "generator",
+    "led", "light fitting", "luminaire", "ceiling light", "tube light",
+    "socket", "switch", "plug point", "power point",
+    "earthing", "grounding", "lightning conductor",
+    "cable tray", "cable ladder", "busbar", "bus duct",
+    "xlpe cable", "armoured cable", "lt cable", "ht cable",
+    "it conduit", "telephone conduit", "public address system", "pa system",
+    "cctv", "access control", "intercom", "point wiring"
+  ],
+  "HVAC": [
+    "ahu", "air handling unit", "fcu", "fan coil unit", "chiller",
+    "cooling tower", "duct", "ductwork", "gi duct", "diffuser", "grille",
+    "damper", "vav box", "thermostat", "refrigerant", "compressor",
+    "exhaust fan", "ventilation fan", "fresh air unit", "return air",
+    "split ac", "cassette ac", "vrf system", "vrv system",
+    "chilled water pipe", "insulation", "hvac", "air conditioning",
+    "blower", "heat exchanger", "condensing unit", "copper piping"
+  ],
+  "Firefighting": [
+    "sprinkler", "fire sprinkler", "fire hydrant", "hydrant valve",
+    "fire extinguisher", "fire pump", "jockey pump", "fire alarm",
+    "smoke detector", "heat detector", "beam detector",
+    "fire hose", "hose reel", "fire door", "fire damper",
+    "fire suppression", "fm200", "clean agent", "fire rated",
+    "fire stop", "fire sealant", "wet riser", "dry riser",
+    "fire tank", "deluge valve", "alarm valve", "firefighting",
+    "fire alarm system", "fire pump set"
+  ],
+  "Finishing & Interior": [
+    "vitrified tile", "ceramic tile", "porcelain tile", "marble",
+    "granite", "stone cladding", "flooring", "wall tile",
+    "paint", "painting", "primer", "putty", "emulsion", "enamel",
+    "texture paint", "wallpaper", "distemper",
+    "false ceiling", "gypsum board", "grid ceiling", "pop ceiling",
+    "door", "window", "aluminium door", "aluminium window",
+    "wooden door", "glass door", "glazing", "upvc window",
+    "partition", "drywall", "glass partition",
+    "hardware", "handle", "lock", "hinge", "door closer",
+    "handrail", "railing", "balustrade",
+    "carpet", "vinyl flooring", "epoxy flooring", "pu coating",
+    "skirting", "dado", "cornice"
+  ],
+  "External Works": [
+    "road", "asphalt", "bitumen", "pavement", "paving block",
+    "kerbstone", "curb stone", "boundary wall", "compound wall",
+    "fencing", "chain link fence", "barbed wire",
+    "gate", "sliding gate", "swing gate",
+    "landscaping", "garden", "grass", "turf", "planting", "tree guard",
+    "irrigation", "drip irrigation", "sprinkler irrigation",
+    "parking", "bollard", "signage", "road marking",
+    "street light", "pole", "outdoor lighting",
+    "storm water drain", "culvert", "catch basin", "swale",
+    "gabion", "geotextile", "retaining structure"
+  ]
+}
